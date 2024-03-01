@@ -15,7 +15,7 @@
 //along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 //You can contact me by writing a mail to david.frings.development@gmail.com
-
+//
 
 require("dotenv").config();
 const env            = process.env;
