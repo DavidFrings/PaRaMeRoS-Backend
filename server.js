@@ -30,8 +30,9 @@ const { red }        = require("./utilities");
 const { green }      = require("./utilities");
 const { yellow }     = require("./utilities");
 const authRoute      = require("./routes/auth");
-const eventRoute      = require("./routes/events");
+const eventRoute     = require("./routes/events");
 const hobbiesRoute   = require("./routes/hobbies");
+const teamRoute      = require("./routes/team");
 const terminalRoute  = require("./routes/terminal");
 const uploadRoute    = require("./routes/upload");
 
@@ -49,8 +50,9 @@ app.use(cors());
 //Routes
 app.use("/api/users",    router);
 app.use("/api/auth",     authRoute);
-app.use("/api/events",    eventRoute);
+app.use("/api/events",   eventRoute);
 app.use("/api/hobbies",  hobbiesRoute);
+app.use("/api/team",     teamRoute);
 app.use("/api/upload",   uploadRoute);
 app.use("/api/terminal", terminalRoute);
 app.use("/api/images",   express.static(path.join(__dirname, "./images")));
