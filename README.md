@@ -1,4 +1,4 @@
-## Das Backend von PaRaMeRoS.net nutzt Node.js und Express.js für sichere Datenverwaltung und Dienste. Integriert mit MongoDB sorgt es für effiziente Datenverarbeitung und nahtlose Interaktion zwischen Frontend und Backend, unterstützt sichere Authentifizierung und API-Endpunkte für die Kommunikation.
+## The backend of PaRaMeRoS.net uses Node.js and Express.js for secure data management and services. Integrated with MongoDB, it ensures efficient data processing and seamless interaction between the frontend and backend, supporting secure authentication and API endpoints for communication.
 
 
 
